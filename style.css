@@ -1,0 +1,47 @@
+.note {
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.heading {
+    font-size: 23px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px white;
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    background: mediumpurple;
+}
+
+body {
+    background: skyblue;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 17px;
+    background: grey;
+    border-radius: 5px;
+    box-shadow: 10px 5px 10px white;
+}
+
+canvas {
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.heading:hover {
+    color: red;
+}
+
+.note:hover {
+    color: red;
+}
